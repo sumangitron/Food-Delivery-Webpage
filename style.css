@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding: 10px 40px;
+  position: sticky;
+  top: 0;
+}
+
+.my-btn-1 {
+  width: 109px;
+  height: 40px;
+  border-radius: 10px;
+  background: #f94a3d;
+  color: white;
+}
+
+.nav-searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #69697b1a;
+  border-radius: 8px;
+  padding-inline: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.nav-searchBar input {
+  border: none;
+}
+
+.vertical-line {
+  border-left: 2px solid #69697b1a;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-item a {
+  color: #212244;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bag-img {
+  width: 30px;
+  height: 34px;
+  color: #0f0e0e;
+  margin: 0px 10px;
+}
+
+.banner {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-details div p {
+  color: #f94a3d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.banner-details h1 {
+  color: #212244;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.banner-img img {
+  width: 800px;
+  height: 700px;
+  flex-shrink: 0;
+}
+
+.description {
+  color: var(--food-delivery-p, #69697b);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.banner-details button {
+  width: 174px;
+  height: 60px;
+  border-radius: 16px;
+  background: #f94a3d;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.18px;
+  margin-top: 10px;
+}
+
+.about,
+.card-section {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 270px;
+  border-image: linear-gradient(to top, rgb(255, 217, 0), rgba(0, 0, 0, 0)) 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+
+.other-card {
+  width: 340px;
+  border: none;
+  padding: 10px;
+}
+
+.other-card h2 {
+  color: #212244;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.other-card p {
+  color: #69697b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card img {
+  width: 160px;
+  height: 170px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #212244;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.recipes {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.another-nav {
+  margin-top: 20px;
+}
+
+.another-nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #808086;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.another-nav a:hover {
+  color: #f94a3d;
+  text-decoration: underline;
+}
+
+.another-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  border: 2px solid black;
+  border-image: linear-gradient(to top, rgb(255, 217, 0), rgba(0, 0, 0, 0)) 1;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.another-card img {
+  margin-bottom: 5px;
+}
+
+.another-card p {
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #212244;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price {
+  color: #69697b;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.btn2 {
+  width: 121px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1.5px solid #f94a3d;
+  background-color: white;
+  color: #f94a3d;
+}
+
+.btn2:hover {
+    background-color: #f94a3d;
+    color: white;
+}
